@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>   
+            <ul>
+                <li class="brand"><img src='images/spotifyLogo.png' alt="spotify" >spotify</li>
+                <li>home</li>
+                <li>about</li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <h1>Best of AKON - All Time</h1>
+            <div class="songList">
+                <div class="songItem">
+                    <div class="songCover"> <img src="images/right now.jpg" ></div>
+                    <span id="sname" >right now</span>
+                    <div class="duration"> <label class='timeStamp'> 5:39</label> <i id="songIndex" class="fa-solid songPlayPause  fa-play"></i>
+                    </div>
+                </div>
+            
+                <div class="songItem">
+                    <div class="songCover"> <img src="images/lonely.jpg" ></div>
+                    <span id="sname" >right now</span>
+                    <div class="duration"> <label class='timeStamp'> 5:39</label> <i id="songIndex" class="fa-solid songPlayPause  fa-play"></i>
+                    </div>
+                </div>
+            
+            
+                <div class="songItem">
+                    <div class="songCover"> <img src="images/i wanna love you.jpg" ></div>
+                    <span id="sname" >right now</span>
+                    <div class="duration"> <label class='timeStamp'> 5:39</label> <i id="songIndex" class="fa-solid songPlayPause  fa-play"></i>
+                    </div>
+                </div>
+           
+            
+                <div class="songItem">
+                    <div class ="songCover"> <img src="images/right now.jpg" ></div>
+                    <span id="sname" >mama africa</span>
+                    <div class="duration"> <label class='timeStamp'> 5:39</label> <i id="songIndex" class="fa-solid songPlayPause  fa-play"></i>
+                    </div>
+                </div>
+            
+            
+                <div class="songItem">
+                    <div class="songCover"> <img src="images/right now.jpg" ></div>
+                    <span id="sname" >be with you</span>
+                    <div class="duration"> <label class='timeStamp'> 5:39</label> <i id="songIndex" class="fa-solid songPlayPause  fa-play"></i>
+                    </div>
+                </div>
+                <div class="songItem">
+                    <div class="songCover"> <img src="images/right now.jpg" ></div>
+                    <span id="sname" >dont matter</span>
+                    <div class="duration"> <label class='timeStamp'> 5:39</label> <i id="songIndex" class="fa-solid songPlayPause  fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="btmIcons"> <!--font awesome icons-->
+                <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+                <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+                <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+            </div>
+            <input type="range" class="progress" name="progressBar" id="songProgress" min="0" value="0" max="100">
+
+            <div class="songInfo">
+                <img id="btmImg" src="images/right now.jpg" > <label id="btmSongName">right now</label>
+            </div>
+
+            <div class="vGif">
+                <img src="images/sounds.gif"  alt="volume gif" id="gif">
+                <input type="range" class="progress" name="progressBar" id="volumeProgress" min="0" value='10' max="100">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/b9bc32ded9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
