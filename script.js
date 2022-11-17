@@ -12,8 +12,8 @@ let gif = document.getElementById('gif');
 let songItem = Array.from(document.getElementsByClassName('songItem')); //i can use songItem class or songCover class
 
 let song = [
-    {songName: 'rightnow', filePath: 'audio/rightnow.mp3', coverPath: 'images/right now.jpg', duration: '4:45'},
-    {songName: 'lonely', filePath: 'audio/lonely.mp3', coverPath: 'images/lonely.jpg', duration: '4:45'},
+    {songName: 'rightnow', filePath: '/rightnow.mp3', coverPath: '/right now.jpg', duration: '4:45'},
+    {songName: 'lonely', filePath: '/lonely.mp3', coverPath: '/lonely.jpg', duration: '4:45'},
     {songName: 'i wanna love you', filePath: 'audio/i wanna love you.mp3', coverPath: 'images/i wanna love you.jpg', duration: '4:45'},
     {songName: 'mama africa', filePath: 'audio/mama africa.mp3', coverPath: 'images/mama africa.jpg', duration: '4:45'},
     {songName: 'smack that', filePath: 'audio/smack that.mp3', coverPath: 'images/be with you.jpg', duration: '4:45'},
