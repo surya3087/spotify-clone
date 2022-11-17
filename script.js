@@ -6,18 +6,18 @@ let songIndex = 0;
 let masterPlay = document.getElementById('masterPlay');
 let previous = document.getElementById('previous');
 let next = document.getElementById('next');
-let audioElement = new Audio('audio/rightnow.mp3');
+let audioElement = new Audio('rightnow.mp3');
 let songProgress = document.getElementById('songProgress');
 let gif = document.getElementById('gif');
 let songItem = Array.from(document.getElementsByClassName('songItem')); //i can use songItem class or songCover class
 
 let song = [
-    {songName: 'right now', filePath: '/rightnow.mp3', coverPath: '/right now.jpg', duration: '4:45'},
-    {songName: 'lonely', filePath: '/lonely.mp3', coverPath: '/lonely.jpg', duration: '4:45'},
-    {songName: 'i wanna love you', filePath: 'audio/i wanna love you.mp3', coverPath: 'images/i wanna love you.jpg', duration: '4:45'},
-    {songName: 'mama africa', filePath: 'audio/mama africa.mp3', coverPath: 'images/mama africa.jpg', duration: '4:45'},
-    {songName: 'smack that', filePath: 'audio/smack that.mp3', coverPath: 'images/be with you.jpg', duration: '4:45'},
-    {songName: 'dont matter', filePath: 'audio/dont matter.mp3', coverPath: 'images/dont matter.jpg', duration: '4:45'},
+    {songName: 'right now', filePath: 'rightnow.mp3', coverPath: 'right now.jpg', duration: '4:45'},
+    {songName: 'lonely', filePath: 'lonely.mp3', coverPath: 'lonely.jpg', duration: '4:45'},
+    {songName: 'i wanna love you', filePath: 'i wanna love you.mp3', coverPath: 'i wanna love you.jpg', duration: '4:45'},
+    {songName: 'mama africa', filePath: 'mama africa.mp3', coverPath: 'mama africa.jpg', duration: '4:45'},
+    {songName: 'smack that', filePath: 'smack that.mp3', coverPath: 'be with you.jpg', duration: '4:45'},
+    {songName: 'dont matter', filePath: 'dont matter.mp3', coverPath: 'dont matter.jpg', duration: '4:45'},
 ]
 
 // add play/pause
